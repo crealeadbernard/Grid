@@ -1,0 +1,100 @@
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Ligne */
+.row {
+    clear: both;
+    border: 1px solid goldenrod;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+
+}
+
+/* Colonnes */
+.col {
+    float: left;
+    background-color: lightgray;
+    margin: 1.04166666667%;
+   /* 10/960*100 */
+}
+
+/* Media queries 768 992 1200 */
+/* Si l'ecran est supérieur à 992px */
+@media screen and (min-width:768px) {
+
+/* Colonnes */
+.col-md-2 {
+    height: 50px;
+    width: 14.583333333%;
+    /* 140/960*100 */
+}
+
+.col-md-4 {
+    height: 50px;
+    width: 31.25%;
+    /* 300/960*100 */
+}
+
+.col-md-6 {
+    height: 50px;
+    width: 47.916666666%;
+    /* 4600/960*100 */
+}
+
+.col-md-8 {
+    height: 50px;
+    width: 64.5833333333%;
+    /* 640/960*100 */
+}
+
+.col-md-12 {
+    height: 50px;
+    width: 97.916666666%;
+    /* 940/960*100 */
+}
+}
+
+/* Media queries 768 992 1200 */
+/* Si l'ecran est plus petit que 768 et 992px */
+@media screen and (max-width:768px) {
+
+
+
+    /* Colonnes */
+    .col-sm-2 {
+        height: 50px;
+        width: 14.583333333%;
+        /* 140/960*100 */
+    }
+    
+    .col-sm-4 {
+        height: 50px;
+        width: 31.25%;
+        /* 300/960*100 */
+    }
+    
+    .col-sm-6 {
+        height: 50px;
+        width: 47.916666666%;
+        /* 460/960*100 */
+    }
+    
+    .col-sm-8 {
+        height: 50px;
+        width: 64.5833333333%;
+        /* 640/960*100 */
+    }
+    
+    .col-sm-12 {
+        height: 50px;
+        width: 97.916666666%;
+        /* 940/960*100 */
+    }
+    }
