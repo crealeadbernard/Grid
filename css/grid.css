@@ -26,6 +26,29 @@
 }
 
 /* Media queries 768 992 1200 */
+/* 
+Entre 992 et 1200
+@media screen and (min-width:992px) and (max-width: 1200px) {
+    .container {
+        width:960px;
+        margin:0 auto;
+    }
+}
+Entre 768 et 992
+@media screen and (min-width:768px) and (max-width: 992px) {
+    .container {
+        width:720px;
+        margin:0 auto;
+    }
+}
+Inferieur à 768
+@media screen and (min-width:992px) and (max-width: 1200px) {
+    .container {
+        max-width:72060px;
+        margin:0 auto;
+    }
+}
+*/
 /* Si l'ecran est supérieur à 992px */
 @media screen and (min-width:768px) {
 
